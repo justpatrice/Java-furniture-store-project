@@ -1,0 +1,16 @@
+02.05.2017 10:27:53:034- RmiServer: Remote Object 'LOGIN_SERVICE_RO' bound!
+02.05.2017 10:27:53:038- RmiServer: Remote Object 'BENUTZER_SERVICE_RO' bound!
+02.05.2017 10:27:53:048- RmiServer: Remote Object 'FILIALE_LAGER_SERVICE_RO' bound!
+02.05.2017 10:27:53:051- RmiServer: Remote Object 'KASSE_SERVICE_RO' bound!
+02.05.2017 10:28:03:325- RmiServer: Remote Object 'BENUTZER_SERVICE_RO' unbound!
+02.05.2017 10:28:03:325- RmiServer: Remote Object 'LOGIN_SERVICE_RO' unbound!
+02.05.2017 10:28:03:325- RmiServer: Remote Object 'FILIALE_LAGER_SERVICE_RO' unbound!
+02.05.2017 10:28:03:325- RmiServer: Remote Object 'KASSE_SERVICE_RO' unbound!
+02.05.2017 10:29:33:269- RmiServer: Remote Object 'LOGIN_SERVICE_RO' bound!
+02.05.2017 10:29:33:274- RmiServer: Remote Object 'BENUTZER_SERVICE_RO' bound!
+02.05.2017 10:29:33:282- RmiServer: Remote Object 'FILIALE_LAGER_SERVICE_RO' bound!
+02.05.2017 10:29:33:285- RmiServer: Remote Object 'KASSE_SERVICE_RO' bound!
+02.05.2017 10:29:35:050- RmiServer: Remote Object 'BENUTZER_SERVICE_RO' unbound!
+02.05.2017 10:29:35:050- RmiServer: Remote Object 'LOGIN_SERVICE_RO' unbound!
+02.05.2017 10:29:35:050- RmiServer: Remote Object 'FILIALE_LAGER_SERVICE_RO' unbound!
+02.05.2017 10:29:35:051- RmiServer: Remote Object 'KASSE_SERVICE_RO' unbound!

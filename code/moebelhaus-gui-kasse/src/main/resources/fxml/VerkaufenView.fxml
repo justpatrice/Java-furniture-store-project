@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.hslu.informatik.moebelhandel.moebelhaus.gui.kasse.VerkaufenViewController">
+   <children>
+      <Label layoutX="40.0" layoutY="44.0" text="Produkt-Code:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtProduktCode" layoutX="138.0" layoutY="40.0" prefHeight="25.0" prefWidth="120.0" />
+      <Button layoutX="277.0" layoutY="40.0" mnemonicParsing="false" onAction="#uebernehmen" text="Übernehmen" />
+      <Button layoutX="926.0" layoutY="40.0" mnemonicParsing="false" onAction="#produktCodeHolen" text="&gt;&gt; Produkt-Code " />
+      <Label layoutX="40.0" layoutY="101.0" text="Rechnungspositionen:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TableView fx:id="tblRechnung" layoutX="40.0" layoutY="118.0" prefHeight="386.0" prefWidth="1000.0">
+        <columns>
+          <TableColumn fx:id="clmNummer" prefWidth="100" text="Nummer" />
+          <TableColumn fx:id="clmProduktDetails" prefWidth="500" text="Produktdetails" />
+            <TableColumn fx:id="clmPreis" prefWidth="399.0" text="Preis" />
+        </columns>
+      </TableView>
+      <Label layoutX="40.0" layoutY="521.0" text="Summe:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblSumme" layoutX="97.0" layoutY="521.0" prefHeight="17.0" prefWidth="43.0" text="0.00" />
+      <Button fx:id="btnAbschliessen" layoutX="40.0" layoutY="548.0" mnemonicParsing="false" onAction="#abschliessen" text="Abschliessen &amp; Drucken" />
+      <Button fx:id="btnAbbrechen" layoutX="966.0" layoutY="548.0" mnemonicParsing="false" onAction="#abbrechen" text="Abbrechen" />
+      <Button fx:id="btnDelete" layoutX="838.0" layoutY="548.0" mnemonicParsing="false" onAction="#positionLoeschen" text="Position Löschen" />
+      <Label fx:id="lblError" layoutX="40.0" layoutY="77.0" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,1 @@
+java -cp "./libs/*" ch.hslu.informatik.moebelhandel.moebelhaus.rmi.RmiServer
