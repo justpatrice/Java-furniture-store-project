@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="1080" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.hslu.informatik.moebelhandel.moebelhaus.gui.kasse.RuecknahmeViewController">
+   <children>
+      <Label layoutX="40.0" layoutY="44.0" text="Datum:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <DatePicker fx:id="txtDatum" layoutX="164.0" layoutY="40.0" />
+      
+      <Label layoutX="40.0" layoutY="88.0" text="Rechnung-Nr.:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtRechnung" layoutX="164.0" layoutY="84.0" prefHeight="25.0" prefWidth="174.0" />
+      
+      <Label layoutX="40.0" layoutY="132.0" text="Produkt-Type Code:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ComboBox fx:id="cbProduktTypCode" layoutX="164.0" layoutY="128.0" prefHeight="25.0" prefWidth="174.0" />
+      
+      <Label layoutX="40.0" layoutY="176.0" text="Preis pro Stück:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblPreisProStueck" layoutX="164.0" layoutY="176.0" text="Label" />
+      
+      <Label layoutX="40.0" layoutY="220.0" text="Anzahl:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblAnzahl" layoutX="164.0" layoutY="220.0" text="Label" />
+      
+      <Label layoutX="40.0" layoutY="264.0" text="Betrag:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblBetrag" layoutX="164.0" layoutY="264.0" text="Label" />
+      
+      <Label layoutX="40.0" layoutY="308.0" text="Bemerkung:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtBemerkung" layoutX="163.0" layoutY="308.0" prefHeight="81.0" prefWidth="351.0" />
+      
+      <Button fx:id="btnBestaetigen" layoutX="164.0" layoutY="400.0" mnemonicParsing="false" onAction="#ruecknahmeBestaetigen" text="Rücknahme Bestätigen" />
+      
+   </children>
+</AnchorPane>
